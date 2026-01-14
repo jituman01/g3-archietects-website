@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -71,9 +70,12 @@ main{
   font-size:18px ;
   font-weight: 500;
 }
-.navbar, .banner, .teams, .facts{
+.navbar, .banner, .teams, .facts, .skill{
   max-width: 1140px;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+
 }
 
 /* banner related style */
@@ -126,6 +128,44 @@ main{
   font-size: 0.7rem;
   line-height: 26px;
   margin-bottom: 32px ;
+}
+
+/* some featres skill related style */
+.skill{
+  gap:100px ;
+  margin-top:130px ;
+}
+#skill-section-title{
+  font-size: 2.8rem;
+  font-weight: bold;
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.skill p{
+  font-size: 16px;
+  line-height: ;
+
+}
+/* .skill img{
+  width: 100%;
+} */
+.feature-card{
+  padding: 30px ;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+.feature-card .feature-title{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.skill img{
+  width: 520px;
 }
 /* some facts related style */
 
